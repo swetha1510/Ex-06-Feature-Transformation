@@ -19,7 +19,7 @@ Apply Feature Transformation techniques to all the features of the data set
 Save the data to the file
 
 ## Program:
-``
+
 Name : SWETHA P
 Register numnber : 212222100053
 
@@ -90,7 +90,7 @@ qt = QuantileTransformer(output_distribution = 'normal')
 df['ModerateNegativeSkew_2'] = pd.DataFrame(qt.fit_transform(df[['Moderate Negative Skew']]))
 sm.qqplot(df['ModerateNegativeSkew_2'],fit=True,line='45')
 plt.show()
-```
+
 
 ## OUTPUT:
 ## Dataset:
